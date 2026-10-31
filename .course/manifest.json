@@ -4,12 +4,12 @@
   "profile": "bootstrap",
   "course_id": "study-portal/ai-systems-performance-2026-27",
   "source_repository": "SUKUNA-AI/study-portal",
-  "source_commit": "f85b96f461509004cf4d8fdb0b0608ae26320e49",
+  "source_commit": "f2726741b9eb44e3528fbed7e9818bd1d587090c",
   "content_release": "course-2026-10-31-5e44cd95daae",
   "content_digest": "5e44cd95daae9cfb342e4608d45c3a3c3f224a0a5ba344a7f2f0042d1c250245",
   "export_version": "1.0.0",
-  "tooling_revision": "5cf60b3eeafd2f2e0d6ded1dfd2d98abc3898da23b688549bb38874d69b6d905",
-  "generated_at": "2026-10-31T16:06:40Z",
+  "tooling_revision": "a7205517d069fa3f7a007e0ebb249a75350f57d1b36e45c05ddf39238284ad6c",
+  "generated_at": "2026-10-31T17:01:27Z",
   "compatibility": {
     "layout": 2,
     "program_schema": "1.5",
@@ -26,7 +26,7 @@
       "visibility": "learner_public",
       "update_policy": "replace",
       "source_path": "generated:checker-profiles",
-      "source_commit": "f85b96f461509004cf4d8fdb0b0608ae26320e49",
+      "source_commit": "f2726741b9eb44e3528fbed7e9818bd1d587090c",
       "eol": "lf"
     },
     {
@@ -37,18 +37,18 @@
       "visibility": "learner_public",
       "update_policy": "replace",
       "source_path": "generated:projection(content/curriculum/generated/program.json)",
-      "source_commit": "f85b96f461509004cf4d8fdb0b0608ae26320e49",
+      "source_commit": "f2726741b9eb44e3528fbed7e9818bd1d587090c",
       "eol": "lf"
     },
     {
       "path": ".course/task-index.json",
-      "sha256": "d92fcdf9ba78171ba4001a36bd8e323dae21a98cdf6adab88e2d3e353c793f87",
-      "bytes": 2145114,
+      "sha256": "8175947a1a98862f9d36df0b6c9e886cf0f15068bc6e338b91352a81af64c0ea",
+      "bytes": 2178623,
       "role": "course_metadata",
       "visibility": "learner_public",
       "update_policy": "replace",
       "source_path": "generated:task-index(program.json)",
-      "source_commit": "f85b96f461509004cf4d8fdb0b0608ae26320e49",
+      "source_commit": "f2726741b9eb44e3528fbed7e9818bd1d587090c",
       "eol": "lf"
     },
     {
@@ -59,7 +59,7 @@
       "visibility": "learner_public",
       "update_policy": "replace",
       "source_path": "content/repo_template/.gitattributes",
-      "source_commit": "f85b96f461509004cf4d8fdb0b0608ae26320e49",
+      "source_commit": "f2726741b9eb44e3528fbed7e9818bd1d587090c",
       "eol": "lf"
     },
     {
@@ -70,7 +70,7 @@
       "visibility": "learner_tooling",
       "update_policy": "replace",
       "source_path": "content/repo_template/.github/ISSUE_TEMPLATE/course-feedback.yml",
-      "source_commit": "f85b96f461509004cf4d8fdb0b0608ae26320e49",
+      "source_commit": "f2726741b9eb44e3528fbed7e9818bd1d587090c",
       "eol": "lf"
     },
     {
@@ -81,7 +81,7 @@
       "visibility": "learner_tooling",
       "update_policy": "replace",
       "source_path": "content/repo_template/.github/PULL_REQUEST_TEMPLATE.md",
-      "source_commit": "f85b96f461509004cf4d8fdb0b0608ae26320e49",
+      "source_commit": "f2726741b9eb44e3528fbed7e9818bd1d587090c",
       "eol": "lf"
     },
     {
@@ -92,7 +92,7 @@
       "visibility": "learner_public",
       "update_policy": "replace",
       "source_path": "generated:public-submodule",
-      "source_commit": "f85b96f461509004cf4d8fdb0b0608ae26320e49",
+      "source_commit": "f2726741b9eb44e3528fbed7e9818bd1d587090c",
       "eol": "lf"
     },
     {
@@ -103,7 +103,7 @@
       "visibility": "learner_tooling",
       "update_policy": "replace",
       "source_path": "content/repo_template/AGENTS.md",
-      "source_commit": "f85b96f461509004cf4d8fdb0b0608ae26320e49",
+      "source_commit": "f2726741b9eb44e3528fbed7e9818bd1d587090c",
       "eol": "lf"
     },
     {
@@ -114,18 +114,18 @@
       "visibility": "learner_tooling",
       "update_policy": "replace",
       "source_path": "content/repo_template/CONTRIBUTING.md",
-      "source_commit": "f85b96f461509004cf4d8fdb0b0608ae26320e49",
+      "source_commit": "f2726741b9eb44e3528fbed7e9818bd1d587090c",
       "eol": "lf"
     },
     {
       "path": "docs/WORKFLOW.md",
-      "sha256": "7fd303b77f15b28d3dc19126aee2ebce571f6b25ea77b2117d32ba2b1ce2b86a",
-      "bytes": 9196,
+      "sha256": "e6e99de8a15d135969700c4e36e795705204a8069f3e6df5396dd092114c7a95",
+      "bytes": 13473,
       "role": "tooling",
       "visibility": "learner_tooling",
       "update_policy": "replace",
       "source_path": "content/repo_template/docs/WORKFLOW.md",
-      "source_commit": "f85b96f461509004cf4d8fdb0b0608ae26320e49",
+      "source_commit": "f2726741b9eb44e3528fbed7e9818bd1d587090c",
       "eol": "lf"
     },
     {
@@ -136,7 +136,7 @@
       "visibility": "learner_public",
       "update_policy": "replace",
       "source_path": "content/curriculum/generated/curriculum.md",
-      "source_commit": "f85b96f461509004cf4d8fdb0b0608ae26320e49",
+      "source_commit": "f2726741b9eb44e3528fbed7e9818bd1d587090c",
       "eol": "lf"
     },
     {
@@ -147,7 +147,7 @@
       "visibility": "learner_tooling",
       "update_policy": "replace",
       "source_path": "content/repo_template/tools/study.py",
-      "source_commit": "f85b96f461509004cf4d8fdb0b0608ae26320e49",
+      "source_commit": "f2726741b9eb44e3528fbed7e9818bd1d587090c",
       "eol": "lf"
     },
     {
@@ -158,7 +158,7 @@
       "visibility": "learner_tooling",
       "update_policy": "replace",
       "source_path": "content/repo_template/tools/study_doctor.py",
-      "source_commit": "f85b96f461509004cf4d8fdb0b0608ae26320e49",
+      "source_commit": "f2726741b9eb44e3528fbed7e9818bd1d587090c",
       "eol": "lf"
     },
     {
@@ -169,7 +169,7 @@
       "visibility": "learner_tooling",
       "update_policy": "replace",
       "source_path": "tools/workspace/learner/bundlelib.py",
-      "source_commit": "f85b96f461509004cf4d8fdb0b0608ae26320e49",
+      "source_commit": "f2726741b9eb44e3528fbed7e9818bd1d587090c",
       "eol": "lf"
     },
     {
@@ -180,7 +180,7 @@
       "visibility": "learner_tooling",
       "update_policy": "replace",
       "source_path": "tools/workspace/learner/course.py",
-      "source_commit": "f85b96f461509004cf4d8fdb0b0608ae26320e49",
+      "source_commit": "f2726741b9eb44e3528fbed7e9818bd1d587090c",
       "eol": "lf"
     },
     {
@@ -191,18 +191,40 @@
       "visibility": "learner_tooling",
       "update_policy": "replace",
       "source_path": "tools/workspace/learner/material_update.py",
-      "source_commit": "f85b96f461509004cf4d8fdb0b0608ae26320e49",
+      "source_commit": "f2726741b9eb44e3528fbed7e9818bd1d587090c",
+      "eol": "lf"
+    },
+    {
+      "path": "tools/workspace/sandbox_identity.py",
+      "sha256": "790349667542be6118e4e96bb6af8e52c8650fb8ac948e96fbc300515d08e015",
+      "bytes": 6270,
+      "role": "tooling",
+      "visibility": "learner_tooling",
+      "update_policy": "replace",
+      "source_path": "tools/workspace/learner/sandbox_identity.py",
+      "source_commit": "f2726741b9eb44e3528fbed7e9818bd1d587090c",
+      "eol": "lf"
+    },
+    {
+      "path": "tools/workspace/source_inventory.py",
+      "sha256": "bc7662d0e18f6fd52820a2a459b91570b32a9a63ebedf015558b56987d74bf60",
+      "bytes": 9594,
+      "role": "tooling",
+      "visibility": "learner_tooling",
+      "update_policy": "replace",
+      "source_path": "tools/workspace/learner/source_inventory.py",
+      "source_commit": "f2726741b9eb44e3528fbed7e9818bd1d587090c",
       "eol": "lf"
     },
     {
       "path": "tools/workspace/study_cli.py",
-      "sha256": "0c07a17c9f22314c630e2b1ed7c572381807f749f728610b0df3ad6c1931184d",
-      "bytes": 50487,
+      "sha256": "4c023183e00631e158274465b337dfc81c723d2d45e7817d3e5790f3af1d24d6",
+      "bytes": 61017,
       "role": "tooling",
       "visibility": "learner_tooling",
       "update_policy": "replace",
       "source_path": "tools/workspace/learner/study_cli.py",
-      "source_commit": "f85b96f461509004cf4d8fdb0b0608ae26320e49",
+      "source_commit": "f2726741b9eb44e3528fbed7e9818bd1d587090c",
       "eol": "lf"
     }
   ],
@@ -212,14 +234,14 @@
       "sha256": "025ba4ba7aaf3b45d3d6cdc0553c46b164e2f99a0eed4b21321e0e1df00163d6",
       "bytes": 909,
       "source_path": "content/repo_template/.gitignore",
-      "source_commit": "f85b96f461509004cf4d8fdb0b0608ae26320e49"
+      "source_commit": "f2726741b9eb44e3528fbed7e9818bd1d587090c"
     },
     {
       "path": "README.md",
-      "sha256": "7fd303b77f15b28d3dc19126aee2ebce571f6b25ea77b2117d32ba2b1ce2b86a",
-      "bytes": 9196,
+      "sha256": "e6e99de8a15d135969700c4e36e795705204a8069f3e6df5396dd092114c7a95",
+      "bytes": 13473,
       "source_path": "generated:public-start",
-      "source_commit": "f85b96f461509004cf4d8fdb0b0608ae26320e49"
+      "source_commit": "f2726741b9eb44e3528fbed7e9818bd1d587090c"
     }
   ],
   "student_paths": [
@@ -2124,8 +2146,8 @@
     "repository": "SUKUNA-AI/study-materials",
     "repository_id": 1440790349,
     "url": "https://github.com/SUKUNA-AI/study-materials.git",
-    "commit": "11a9785e38ff1695ed6cc68fd1184f53765a2320",
-    "digest": "b565493eb89f4e9d2274db2a7a1e9977ee38c1673241bc17a8df4e695e72f6fb",
+    "commit": "73eda959d3c6530ffc321aee99e4535f0b010a19",
+    "digest": "c1dd2648fcc49ca96ccdd3a5c716a5c634c02a252f7097cc0f0211726598b77a",
     "path": "materials"
   },
   "compatible_previous_releases": [
@@ -2972,8 +2994,8 @@
     },
     {
       "path": "materials/tasks/g-u01-01-sum-even/task.json",
-      "sha256": "1a757fdbc67696a5085bab9ba97fbcde3071ed3b61045a09dda5b8cdfb2470cc",
-      "bytes": 601
+      "sha256": "5d6edf384860e696501a9a40be978159a32cc7ee969d2c031cc9da9b9c65c3fe",
+      "bytes": 633
     },
     {
       "path": "materials/tasks/g-u01-01-sum-even/task.yaml",
@@ -3027,8 +3049,8 @@
     },
     {
       "path": "materials/tasks/g-u01-02-count-between/task.json",
-      "sha256": "b83b07635eba77e7953ed49d4d847c82099ce3d266ca2e6c3e5ba49376ef79cf",
-      "bytes": 595
+      "sha256": "b7c1532cbe837e5ea731926d74c7fad94efc44b3ba905f9047579f1569597206",
+      "bytes": 627
     },
     {
       "path": "materials/tasks/g-u01-02-count-between/task.yaml",
@@ -3082,8 +3104,8 @@
     },
     {
       "path": "materials/tasks/g-u01-03-clamp/task.json",
-      "sha256": "d6323cd77ec6252287bfa94ffba3b73037edd4c7a0ee799ac2d473f250a854d9",
-      "bytes": 588
+      "sha256": "b68fcaa3ce213f075e594d23c9bb744b0ab0feeb4acada0961ca95289d7fc717",
+      "bytes": 620
     },
     {
       "path": "materials/tasks/g-u01-03-clamp/task.yaml",
@@ -3137,8 +3159,8 @@
     },
     {
       "path": "materials/tasks/g-u01-04-sum-while/task.json",
-      "sha256": "eb956d59f3b02479c733488d7f48cc88787945b4e80d794d8b3406e160232fce",
-      "bytes": 569
+      "sha256": "d940497def4324ad1b837fb3b5e9bbb387446f042be802d2ff0786ec5a0c41d2",
+      "bytes": 601
     },
     {
       "path": "materials/tasks/g-u01-04-sum-while/task.yaml",
@@ -3192,8 +3214,8 @@
     },
     {
       "path": "materials/tasks/g-u01-05-stop-at-zero/task.json",
-      "sha256": "632072a9aaf65a9f42b810676bdb92a5d22c8b2b4517abf8b03bdd363a64ad97",
-      "bytes": 591
+      "sha256": "c545533f262fda304cb969fa54d90fa6b63bddf2199a86447bb9513c3506d4d7",
+      "bytes": 623
     },
     {
       "path": "materials/tasks/g-u01-05-stop-at-zero/task.yaml",
@@ -3247,8 +3269,8 @@
     },
     {
       "path": "materials/tasks/g-u01-06-reverse-copy/task.json",
-      "sha256": "5171c78f5c2112eb290ec7e63afd8eb8e8fa2c782167f8c56c36eb7be89d6cf8",
-      "bytes": 596
+      "sha256": "a149dda30c168d40f70ca4462d9038b4c440802bb3574c27f8519c6a6fb789ed",
+      "bytes": 628
     },
     {
       "path": "materials/tasks/g-u01-06-reverse-copy/task.yaml",
@@ -3302,8 +3324,8 @@
     },
     {
       "path": "materials/tasks/g-u01-07-first-index/task.json",
-      "sha256": "4504d3bb11baf0b48f87197eb186e4895288fbeef48fea67cd48adbd860615ae",
-      "bytes": 568
+      "sha256": "b28643b4468e66d814533e2be722907a5eaabcd27ed8518e3294b2c962d22258",
+      "bytes": 600
     },
     {
       "path": "materials/tasks/g-u01-07-first-index/task.yaml",
@@ -3357,8 +3379,8 @@
     },
     {
       "path": "materials/tasks/g-u01-08-alternating-sum/task.json",
-      "sha256": "bfeb681346c604281e23fd7bb479a917c8ac0afbb2a10aa030887285b72ca2ec",
-      "bytes": 628
+      "sha256": "c2575987a2317c776cfc10b9ed64ca2a90d14d22ea1c6464e3b2cf67e5347ac0",
+      "bytes": 660
     },
     {
       "path": "materials/tasks/g-u01-08-alternating-sum/task.yaml",
@@ -3412,8 +3434,8 @@
     },
     {
       "path": "materials/tasks/g-u01-09-row-totals/task.json",
-      "sha256": "18df9f08ee21acc83ffdb12d5383e0f16e5ea83a19838b563304d29436d36cdb",
-      "bytes": 585
+      "sha256": "27a72d333baa1cfedce00ae5e1f31ff80ca6394b3570b3e44348cc9393bb17f9",
+      "bytes": 617
     },
     {
       "path": "materials/tasks/g-u01-09-row-totals/task.yaml",
@@ -3467,8 +3489,8 @@
     },
     {
       "path": "materials/tasks/g-u01-10-equal-run/task.json",
-      "sha256": "f21b7a098dfb4b7f9a77da5440ba240c980fd50e18e01ac68dafaf949081d875",
-      "bytes": 598
+      "sha256": "73120bacf56ab5b07a56ba354d32a85465d28fe0830b8b3728d1199fb9b8f9fe",
+      "bytes": 630
     },
     {
       "path": "materials/tasks/g-u01-10-equal-run/task.yaml",
@@ -3522,8 +3544,8 @@
     },
     {
       "path": "materials/tasks/g-u01-d1-run-lengths/task.json",
-      "sha256": "a0cca209d76961bf2198560a465f8411a5effdf14bf51113ae845770e4513f89",
-      "bytes": 561
+      "sha256": "49512cd8ec05967ac43ba95b125f2e2deb2ff60399ae9e7e0ea31548c07ff3f6",
+      "bytes": 593
     },
     {
       "path": "materials/tasks/g-u01-d1-run-lengths/task.yaml",
@@ -3577,8 +3599,8 @@
     },
     {
       "path": "materials/tasks/g-u01-d2-triangle/task.json",
-      "sha256": "d6c4c2151da5b4d085887435a731ef51d0f8e0c52d59292ecc524d8673c13a2b",
-      "bytes": 575
+      "sha256": "7b56ca0c2c4ed7322f9f746d25bb583d176bf2ecb58b74a669a7e63745188619",
+      "bytes": 607
     },
     {
       "path": "materials/tasks/g-u01-d2-triangle/task.yaml",
@@ -3632,8 +3654,8 @@
     },
     {
       "path": "materials/tasks/g-u02-01-enum-bits/task.json",
-      "sha256": "18fbd22b23ed89c7b9172475b8e5cf5ec2236315a6a72b822924bc0487366c3e",
-      "bytes": 551
+      "sha256": "49156dd1805f4f79a356c9dd7b2ec5824533faa65805109129821bd33b87cde8",
+      "bytes": 583
     },
     {
       "path": "materials/tasks/g-u02-01-enum-bits/task.yaml",
@@ -3687,8 +3709,8 @@
     },
     {
       "path": "materials/tasks/g-u02-02-clock-reference/task.json",
-      "sha256": "d97b8c8f52d1872b873e72867fbc342ccd47f53d950782c027ccc9d7ffe561c5",
-      "bytes": 607
+      "sha256": "bf0af5a1e5b5a02e115bc49217afbed9aad5358d438fb6e6a340ec27e8f4f154",
+      "bytes": 639
     },
     {
       "path": "materials/tasks/g-u02-02-clock-reference/task.yaml",
@@ -3742,8 +3764,8 @@
     },
     {
       "path": "materials/tasks/g-u02-03-guarded-change/task.json",
-      "sha256": "05b72361b557f2a0dd9ec019cea9bd687513e65ed60c877ed64f7ecda97fff52",
-      "bytes": 598
+      "sha256": "9a14723df84b94f451640b6cbe2b3828dd4813a6300a8af4897dd3ccbe4deee3",
+      "bytes": 630
     },
     {
       "path": "materials/tasks/g-u02-03-guarded-change/task.yaml",
@@ -3797,8 +3819,8 @@
     },
     {
       "path": "materials/tasks/g-u02-04-struct-area/task.json",
-      "sha256": "7afdee96e1feaf489d0ae5362f5a2a7629c56436f7bcf693172dca080cdc44e9",
-      "bytes": 566
+      "sha256": "a6f815c26e4811430ab48ff0336e59d0e1740db4efb87ecf5d02c1c8c5c1a098",
+      "bytes": 598
     },
     {
       "path": "materials/tasks/g-u02-04-struct-area/task.yaml",
@@ -3852,8 +3874,8 @@
     },
     {
       "path": "materials/tasks/g-u02-05-state-switch/task.json",
-      "sha256": "733d718e07c878695df9a3e29945e376d2bf7c9968b0631d444e05437b7d4fe8",
-      "bytes": 585
+      "sha256": "fedea065ba17463e2b75407f66784bb24a577a732f634eda798f8fa6ba775a41",
+      "bytes": 617
     },
     {
       "path": "materials/tasks/g-u02-05-state-switch/task.yaml",
@@ -3907,8 +3929,8 @@
     },
     {
       "path": "materials/tasks/g-u02-06-optional-value/task.json",
-      "sha256": "4c784f7edbfc9f4ed53325fb36da66ccb2c98c9c2ef929d10aa2ad817baf1c34",
-      "bytes": 574
+      "sha256": "4b83b995d3a2faa1d4c08610fed7feade2012f8e67ee7d179a24d29099aeb989",
+      "bytes": 606
     },
     {
       "path": "materials/tasks/g-u02-06-optional-value/task.yaml",
@@ -3962,8 +3984,8 @@
     },
     {
       "path": "materials/tasks/g-u02-07-safe-quotient/task.json",
-      "sha256": "2fdfdebb5dc1e7483dd4b5c94df8fa7f4c395c0ad18424308acde46017ce8bf0",
-      "bytes": 597
+      "sha256": "535f0b179b0f94c796fa01cd0f7ec6a8896274e833dac378239d15bdcd2137b6",
+      "bytes": 629
     },
     {
       "path": "materials/tasks/g-u02-07-safe-quotient/task.yaml",
@@ -4017,8 +4039,8 @@
     },
     {
       "path": "materials/tasks/g-u02-08-optional-maximum/task.json",
-      "sha256": "ef034b6a44cb365ec208ab319cb00372d759ae962b5bb6be4344840ff36551e8",
-      "bytes": 623
+      "sha256": "6625f110dcd4a002b2aa72326d3bd9646102ef0f4c7827b3bf73838cc064a1ee",
+      "bytes": 655
     },
     {
       "path": "materials/tasks/g-u02-08-optional-maximum/task.yaml",
@@ -4072,8 +4094,8 @@
     },
     {
       "path": "materials/tasks/g-u02-09-borrowed-pointer/task.json",
-      "sha256": "2b005e8217d8e7b701e52a7988fb44a5c33d90f1e77d018b93c7623dd83f9f87",
-      "bytes": 623
+      "sha256": "4249112800d2ca0bac50f653a8f2ad885808f5e7510d34fc73dcdcec6a4848de",
+      "bytes": 655
     },
     {
       "path": "materials/tasks/g-u02-09-borrowed-pointer/task.yaml",
@@ -4127,8 +4149,8 @@
     },
     {
       "path": "materials/tasks/g-u02-10-lexicographic/task.json",
-      "sha256": "effb36be24664120d72ab9fd87266a79199cf4d925c8f54964b5b2dbfde6c532",
-      "bytes": 583
+      "sha256": "bbfbfb10481085c7179057af81eaf0595479b0a02670dc258eb94dd07f28c855",
+      "bytes": 615
     },
     {
       "path": "materials/tasks/g-u02-10-lexicographic/task.yaml",
@@ -4182,8 +4204,8 @@
     },
     {
       "path": "materials/tasks/g-u02-11-optional-update/task.json",
-      "sha256": "01474c5b9506336467ec4e3ddcd420c0dc46e6d7436143b0877ded8b7badd9da",
-      "bytes": 604
+      "sha256": "5cc528217a395c90fd16c10812ab849533427b8b753e115217dbb95d341812b2",
+      "bytes": 636
     },
     {
       "path": "materials/tasks/g-u02-11-optional-update/task.yaml",
@@ -4237,8 +4259,8 @@
     },
     {
       "path": "materials/tasks/g-u02-12-valid-samples/task.json",
-      "sha256": "71cb13d44f0cb6037970ed4e58ed17dd36fd713d54227eeb107ddd61083c1f8b",
-      "bytes": 584
+      "sha256": "a73568a75e7a55048d9b82a096723f4a0a97fd7919585b5611a69e66a5f4ac03",
+      "bytes": 616
     },
     {
       "path": "materials/tasks/g-u02-12-valid-samples/task.yaml",
@@ -4292,8 +4314,8 @@
     },
     {
       "path": "materials/tasks/g-u02-d1-reservation/task.json",
-      "sha256": "80ac41947179371b82c18a67b69215e3211e4eae9c8af8469923816e76503550",
-      "bytes": 558
+      "sha256": "50ea12fcc5b998f89d1823206e04fb08de1c446b5d97f29762f67c4442fe4782",
+      "bytes": 590
     },
     {
       "path": "materials/tasks/g-u02-d1-reservation/task.yaml",
@@ -4347,8 +4369,8 @@
     },
     {
       "path": "materials/tasks/g-u02-d2-clock-order/task.json",
-      "sha256": "38bf480a52045324669bef4d1d8ba3462dc425dfcf8d6e6fe94ffceb0670172c",
-      "bytes": 567
+      "sha256": "ac4841d31ee8287742dd64fdce7af8fa2a6e4d8fe6233f2b5abd84462dec4a1e",
+      "bytes": 599
     },
     {
       "path": "materials/tasks/g-u02-d2-clock-order/task.yaml",
@@ -4402,8 +4424,8 @@
     },
     {
       "path": "materials/tasks/g-u02-d3-mode-limit/task.json",
-      "sha256": "09453fa7593869ad7182eacd8e1d8a8bfa66906cd74eef1014a591f68ab85fc6",
-      "bytes": 553
+      "sha256": "c82e7180ef15bccacebcd4245591e257aea69f7db821f3de5ad4854f8d896808",
+      "bytes": 585
     },
     {
       "path": "materials/tasks/g-u02-d3-mode-limit/task.yaml",
@@ -4457,8 +4479,8 @@
     },
     {
       "path": "materials/tasks/g-u02-d4-best-sample/task.json",
-      "sha256": "b6603baebe357c44b96a41f34974f229f7cda485dc9da79140621a75d33ed891",
-      "bytes": 551
+      "sha256": "a24638bc3dcb53396aae0904c6b1c79234b087e1e152c88567404a60cab1ec66",
+      "bytes": 583
     },
     {
       "path": "materials/tasks/g-u02-d4-best-sample/task.yaml",
@@ -4512,8 +4534,8 @@
     },
     {
       "path": "materials/tasks/g-u03-01-uppercase/task.json",
-      "sha256": "77ca3de9ef61237bf93d158c3e32cb9001b693a6d0eff7afdbaa12232fef4539",
-      "bytes": 570
+      "sha256": "ee13ed72b720cafde9399d8dd7177db4e3367bf1d130b486a2ab7e3a587dbbdd",
+      "bytes": 602
     },
     {
       "path": "materials/tasks/g-u03-01-uppercase/task.yaml",
@@ -4567,8 +4589,8 @@
     },
     {
       "path": "materials/tasks/g-u03-02-suffix/task.json",
-      "sha256": "3b33145d15d84cf15226884482343d1fd54d4470675bd33da2f1781d45f71923",
-      "bytes": 553
+      "sha256": "120559babbfa10cdd3bd84e3828cb1e97a9f4b1d33ee602ffb4e710fbc8be27d",
+      "bytes": 585
     },
     {
       "path": "materials/tasks/g-u03-02-suffix/task.yaml",
@@ -4622,8 +4644,8 @@
     },
     {
       "path": "materials/tasks/g-u03-03-join-pair/task.json",
-      "sha256": "d08f21e7f08891cab1b336d8b566af74714277a29e1c632ca09fbec695d8463a",
-      "bytes": 581
+      "sha256": "450450ec0894e4e434b743c8b9d8ed0f34e0a494b8fa50085536c3a687cd630a",
+      "bytes": 613
     },
     {
       "path": "materials/tasks/g-u03-03-join-pair/task.yaml",
@@ -4677,8 +4699,8 @@
     },
     {
       "path": "materials/tasks/g-u03-04-prefix-view/task.json",
-      "sha256": "936f28700d53a9455b591ec1af58c0ba851bf7fd9a8c1cee59aacf0c4c0988cb",
-      "bytes": 580
+      "sha256": "6be4da0214e5c058177d249655bc94b74903d7c106914b1e1b426e0440297e5c",
+      "bytes": 612
     },
     {
       "path": "materials/tasks/g-u03-04-prefix-view/task.yaml",
@@ -4732,8 +4754,8 @@
     },
     {
       "path": "materials/tasks/g-u03-05-from-chars/task.json",
-      "sha256": "9505590af12f0b34417be760bb025119d108ddcbfe5e0c29a2eda2b64c064d05",
-      "bytes": 594
+      "sha256": "03be4568b47ae01cbd43224b6305d45ad64f70df9d2eb2c05e98034e7708d844",
+      "bytes": 626
     },
     {
       "path": "materials/tasks/g-u03-05-from-chars/task.yaml",
@@ -4787,8 +4809,8 @@
     },
     {
       "path": "materials/tasks/g-u03-06-format-row/task.json",
-      "sha256": "cf1b6e46cbb3c2ca1853b2ca6da9d5c8601c114282ddc390efda272cc79a052f",
-      "bytes": 591
+      "sha256": "b30b166dcd4fd31a2828fa8cd62dcfff4044998ccc0cad4b9fd02a316f1ae5bc",
+      "bytes": 623
     },
     {
       "path": "materials/tasks/g-u03-06-format-row/task.yaml",
@@ -4842,8 +4864,8 @@
     },
     {
       "path": "materials/tasks/g-u03-07-to-chars/task.json",
-      "sha256": "2f2cf541488c4f30bf15ecc7b6174557de7e0cd130309b009c7185c327267555",
-      "bytes": 584
+      "sha256": "4ba7d543a74d0d4c41257a480635f9db9f6cad034387ed90e6b5be28df2f9e4a",
+      "bytes": 616
     },
     {
       "path": "materials/tasks/g-u03-07-to-chars/task.yaml",
@@ -4897,8 +4919,8 @@
     },
     {
       "path": "materials/tasks/g-u03-08-split-fields/task.json",
-      "sha256": "e91a478c7cbaa75afa4e9a39ffd51cd42bc4649a19a4edd73b32d5ea4b7d8547",
-      "bytes": 584
+      "sha256": "86bfc3bc1261dff2fecdd58d3e965cedb7af4c1b421c25c9805daabbb745ebc8",
+      "bytes": 616
     },
     {
       "path": "materials/tasks/g-u03-08-split-fields/task.yaml",
@@ -4952,8 +4974,8 @@
     },
     {
       "path": "materials/tasks/g-u03-09-trim-view/task.json",
-      "sha256": "ab8e99d02ee67c623b8ea435ffa051016a1c4b15d42e8f16823f711ab21f0a90",
-      "bytes": 605
+      "sha256": "2d83eebc316b3a45651efb1998a9ba7bc732d2d9ef14cebd844fe1ccf5a60bb0",
+      "bytes": 637
     },
     {
       "path": "materials/tasks/g-u03-09-trim-view/task.yaml",
@@ -5007,8 +5029,8 @@
     },
     {
       "path": "materials/tasks/g-u03-10-replace-all/task.json",
-      "sha256": "c837f684db6bc3b936d88d0fc595a614edacce76db13a1566b6042cb695b58f4",
-      "bytes": 577
+      "sha256": "694d514083ffdfaf9165a0a05f2d500e6a94527d79b255cfa69a8aae168010b0",
+      "bytes": 609
     },
     {
       "path": "materials/tasks/g-u03-10-replace-all/task.yaml",
@@ -5062,8 +5084,8 @@
     },
     {
       "path": "materials/tasks/g-u03-11-parse-list/task.json",
-      "sha256": "6e064f45b57f78a84f01e601df24b87a371ffdbc7a0f696f66a8fa79539f4e42",
-      "bytes": 599
+      "sha256": "5cf18035e6b56e2b97b7c79fca01ab5f35b99eea96d2ec93280f3b243e5f806f",
+      "bytes": 631
     },
     {
       "path": "materials/tasks/g-u03-11-parse-list/task.yaml",
@@ -5117,8 +5139,8 @@
     },
     {
       "path": "materials/tasks/g-u03-12-point-formatter/task.json",
-      "sha256": "78eb0b9e0e42462a85bc6810a77b875a7aa0b51d52fce1ba88f8cb5ca6284b87",
-      "bytes": 578
+      "sha256": "18a5ab42f0fab96977e3b67a89f2e479f9ac66a788d7b1b70af230b7937a3d4a",
+      "bytes": 610
     },
     {
       "path": "materials/tasks/g-u03-12-point-formatter/task.yaml",
@@ -5172,8 +5194,8 @@
     },
     {
       "path": "materials/tasks/g-u03-d1-assignment/task.json",
-      "sha256": "adb90533d4e14504580ee9a82319919b88b03d15c2b17e9c71fd5d53a9d179fb",
-      "bytes": 572
+      "sha256": "28cd4f1fb80ec8c28d846c5588f67e6d9803daa2ad97f5130886ecd7c968e38e",
+      "bytes": 604
     },
     {
       "path": "materials/tasks/g-u03-d1-assignment/task.yaml",
@@ -5227,8 +5249,8 @@
     },
     {
       "path": "materials/tasks/g-u03-d2-table/task.json",
-      "sha256": "eda823c443d74b3251a178b32fce0aaf840c1257dd5b006a2e02d463c4665eea",
-      "bytes": 541
+      "sha256": "781d63a473801d5077ded9d4f717d5b7e43fc27f1981e29f98f5154966bc72c2",
+      "bytes": 573
     },
     {
       "path": "materials/tasks/g-u03-d2-table/task.yaml",
@@ -5282,8 +5304,8 @@
     },
     {
       "path": "materials/tasks/g-u03-d3-path-parts/task.json",
-      "sha256": "8274b96f19bc9c4052e532d9068586c7526d00f07c1f13bfa6749ae67280c0e0",
-      "bytes": 550
+      "sha256": "37f7a40c438f1019f8e9c7faf4e29c1951b74f4117510ebb8ee260c8e70953ca",
+      "bytes": 582
     },
     {
       "path": "materials/tasks/g-u03-d3-path-parts/task.yaml",
@@ -5337,8 +5359,8 @@
     },
     {
       "path": "materials/tasks/g-u03-d4-rgb/task.json",
-      "sha256": "bfa192f609afb2f27fb601ae91de3242642f8561eba28c4f19352a4fa56bfa98",
-      "bytes": 539
+      "sha256": "4619a1f49424cfccec91cd770cd7e83775aee062d24199c5032ea86459a49cd9",
+      "bytes": 571
     },
     {
       "path": "materials/tasks/g-u03-d4-rgb/task.yaml",
@@ -5392,8 +5414,8 @@
     },
     {
       "path": "materials/tasks/g-u04-01-make-cell/task.json",
-      "sha256": "4cdd8fe1477a7a4c75d3f3e3eae660a4d14fa334a590f7ee0a5affe9789f172c",
-      "bytes": 594
+      "sha256": "3dac7bdf438e15acae59de3ca51834051a16dc46fb0393badeb6dac3d542a66c",
+      "bytes": 626
     },
     {
       "path": "materials/tasks/g-u04-01-make-cell/task.yaml",
@@ -5447,8 +5469,8 @@
     },
     {
       "path": "materials/tasks/g-u04-02-borrow-owner/task.json",
-      "sha256": "1807ee5b75319eae7e8c1be5c8aa1be3e617773bfcfc624d88da8dd8da9539db",
-      "bytes": 575
+      "sha256": "c40a724d5d09573e58a1f8f2321793d689606204538e49453b8247edc8e2e99d",
+      "bytes": 607
     },
     {
       "path": "materials/tasks/g-u04-02-borrow-owner/task.yaml",
@@ -5502,8 +5524,8 @@
     },
     {
       "path": "materials/tasks/g-u04-03-reset-cell/task.json",
-      "sha256": "dde1391fe0f9c10fc747c6a72035b63ebbfdd8e574c42b6b76517ca2a15a44c2",
-      "bytes": 571
+      "sha256": "25094b75e2cc3df2550d90416bcd21e223a386eb24e76f432ce427602f1f4a70",
+      "bytes": 603
     },
     {
       "path": "materials/tasks/g-u04-03-reset-cell/task.yaml",
@@ -5557,8 +5579,8 @@
     },
     {
       "path": "materials/tasks/g-u04-04-swap-owners/task.json",
-      "sha256": "c55eb98fd2c7dbdb32a4bc7d6833fb60126f705d46750afdd1da2fc24f7ae4b1",
-      "bytes": 553
+      "sha256": "02c32115e05a86590a2e84fee3fa6915fb1aa3fc372d5599f49cf5eddc1c86f5",
+      "bytes": 585
     },
     {
       "path": "materials/tasks/g-u04-04-swap-owners/task.yaml",
@@ -5612,8 +5634,8 @@
     },
     {
       "path": "materials/tasks/g-u04-05-clone-array/task.json",
-      "sha256": "6fdd650d3a0aa86ba38a1bc81eebe9f9e8179faff5eacdf596c54eca8c7f2340",
-      "bytes": 597
+      "sha256": "8adbd664f2695e6ee35583bed519dba34bfe3f0e37ff0224c12dd515aff811a8",
+      "bytes": 629
     },
     {
       "path": "materials/tasks/g-u04-05-clone-array/task.yaml",
@@ -5667,8 +5689,8 @@
     },
     {
       "path": "materials/tasks/g-u04-06-replace-cell/task.json",
-      "sha256": "43a357d2650b3459a7804ac98959004a0c856b32b8779507ffeaf3b17ba35614",
-      "bytes": 580
+      "sha256": "afa25270aa9a38f62d71746c3a91593176aa904ee30bfafa0e188c218f73b511",
+      "bytes": 612
     },
     {
       "path": "materials/tasks/g-u04-06-replace-cell/task.yaml",
@@ -5722,8 +5744,8 @@
     },
     {
       "path": "materials/tasks/g-u04-07-shared-aliases/task.json",
-      "sha256": "86ce11e7eaa54db3d4430823af3d2edff39d9637db572b6eb861b19d6b22585a",
-      "bytes": 612
+      "sha256": "f470e776c9b38fb13440fc33de3c34bb5de7aa4d6fba14163c00b1e8c17c97c8",
+      "bytes": 644
     },
     {
       "path": "materials/tasks/g-u04-07-shared-aliases/task.yaml",
@@ -5777,8 +5799,8 @@
     },
     {
       "path": "materials/tasks/g-u04-08-weak-lock/task.json",
-      "sha256": "39bf83d6390af5fe4e6a808d2ae09d1a5fceb0410f9230b0fc1b4e6411bdbb09",
-      "bytes": 557
+      "sha256": "c8827640de75090c395a7d277342d5abc81bca19b864f7e51d163ad12f26d6d9",
+      "bytes": 589
     },
     {
       "path": "materials/tasks/g-u04-08-weak-lock/task.yaml",
@@ -5832,8 +5854,8 @@
     },
     {
       "path": "materials/tasks/g-u04-09-array-ramp/task.json",
-      "sha256": "828cb2245553db0a2ef21cee7997fb68a6d8f3d0d260d392b6368f07b95f071c",
-      "bytes": 602
+      "sha256": "a20a3828966cb0f00910a6f05d2bf9b12885206317e89bfc1f309f50e3df0b68",
+      "bytes": 634
     },
     {
       "path": "materials/tasks/g-u04-09-array-ramp/task.yaml",
@@ -5887,8 +5909,8 @@
     },
     {
       "path": "materials/tasks/g-u04-10-release-array/task.json",
-      "sha256": "bd65fd9e9362ddb789d8a6f5852d4d4902a90ba68bc2b07fe4ffcbfb4bd104ce",
-      "bytes": 609
+      "sha256": "de60f28409fbf9bdc1f21d0f44cd1559e29e3293289440fe5372ae8c9c5625c4",
+      "bytes": 641
     },
     {
       "path": "materials/tasks/g-u04-10-release-array/task.yaml",
@@ -5942,8 +5964,8 @@
     },
     {
       "path": "materials/tasks/g-u04-11-weak-backlink/task.json",
-      "sha256": "8ed7688dd6b15282b6e690c6d6ade18601f4e3577c38e22b758fd70043b646d2",
-      "bytes": 581
+      "sha256": "a82104277ab909ffbd8b73753c70e5e9cb8bf8d735ca597feb4a6c9e7d227e69",
+      "bytes": 613
     },
     {
       "path": "materials/tasks/g-u04-11-weak-backlink/task.yaml",
@@ -5997,8 +6019,8 @@
     },
     {
       "path": "materials/tasks/g-u04-12-resize-copy/task.json",
-      "sha256": "4e6ff3c391334a4edb24fb4e7ff3917e701a463886f3ba83c394e3a2d2218a22",
-      "bytes": 581
+      "sha256": "2f3016dfaa825e4128091d91f87b983833fb365f7569732ecc116522bde87de0",
+      "bytes": 613
     },
     {
       "path": "materials/tasks/g-u04-12-resize-copy/task.yaml",
@@ -6052,8 +6074,8 @@
     },
     {
       "path": "materials/tasks/g-u04-d1-clone-selected/task.json",
-      "sha256": "1d4ac9f347207dd64ad4fc022cbfa30b0611e140b2916cadd2f680c0559f98e6",
-      "bytes": 569
+      "sha256": "b2ea51746745b62ae621c724e2023407873c32ddbb81764de4362c074f912b25",
+      "bytes": 601
     },
     {
       "path": "materials/tasks/g-u04-d1-clone-selected/task.yaml",
@@ -6107,8 +6129,8 @@
     },
     {
       "path": "materials/tasks/g-u04-d2-rotate-owners/task.json",
-      "sha256": "0de41270c39e5d30bc906fb4bd560c3986a9ad90abf01e57da7728a4f5c6a9df",
-      "bytes": 546
+      "sha256": "c6bcede1ce05e9ae5935b4de834ddb0754027f982f0b56aa217cc3e67d5f47c4",
+      "bytes": 578
     },
     {
       "path": "materials/tasks/g-u04-d2-rotate-owners/task.yaml",
@@ -6162,8 +6184,8 @@
     },
     {
       "path": "materials/tasks/g-u04-d3-weak-registry/task.json",
-      "sha256": "4d239e53e62b8e25c3622d7e7096ff0c7156bb2beb8a74ef05bfe868c3e007f8",
-      "bytes": 570
+      "sha256": "d390359a1e0bf3433a99c6e672dbb06fa8cb0de02187a44dbd4652c85834438c",
+      "bytes": 602
     },
     {
       "path": "materials/tasks/g-u04-d3-weak-registry/task.yaml",
@@ -6217,8 +6239,8 @@
     },
     {
       "path": "materials/tasks/g-u04-d4-clone-record/task.json",
-      "sha256": "63e3c094d47c774fb6a202aa3985d697bb46b80d8d5d2a4ce660dc670049737a",
-      "bytes": 552
+      "sha256": "0d73259472cf1491cb04b7c1cde5146dae7f462572a6c7f5e7124faaf605fcca",
+      "bytes": 584
     },
     {
       "path": "materials/tasks/g-u04-d4-clone-record/task.yaml",
@@ -6257,8 +6279,8 @@
     },
     {
       "path": "materials/tasks/k-s1-matmul-naive/task.json",
-      "sha256": "de23f18c8a31d97e860ae56af15eb547d63365b2f24611d45d482d9350029594",
-      "bytes": 644
+      "sha256": "39030dd219839542c8b609df98404603ed63ec121fcf142d8c40b3cf66ffc683",
+      "bytes": 675
     },
     {
       "path": "materials/tasks/k-s1-matmul-naive/tests/public/01-case.json",
@@ -6297,8 +6319,8 @@
     },
     {
       "path": "materials/tasks/k-s1-vadd-basics/task.json",
-      "sha256": "590d849aa97424281b0a5c71eb5b8cf16f867f9258c6b3c36812fc3cd72cffe5",
-      "bytes": 640
+      "sha256": "465143f33846fcc87a36125f574eb241c33c36f4d336322d6a318d388280f3f0",
+      "bytes": 671
     },
     {
       "path": "materials/tasks/k-s1-vadd-basics/tests/public/01-case.json",
@@ -6347,8 +6369,8 @@
     },
     {
       "path": "materials/tasks/l01-syscall-errors/task.json",
-      "sha256": "6b009a61ff4314d777c7241ce328976a0dfe1a031b2fa80c7f7b6f0e221c112b",
-      "bytes": 632
+      "sha256": "399916d82ec0fe4b70f90c8a0f63755a381ed691b2cd96f32c80266b02337c43",
+      "bytes": 701
     },
     {
       "path": "materials/tasks/l01-syscall-errors/task.yaml",
@@ -6402,8 +6424,8 @@
     },
     {
       "path": "materials/tasks/l02-copy-file/task.json",
-      "sha256": "2388f9fd22ee9dec30e821a89921c01bd25ee684b4df344d16f67c18c4eb2ca7",
-      "bytes": 629
+      "sha256": "ea504b5abdef2b6524d516a3ec1680a1b0d7bf9850d317e30ef074909d348c15",
+      "bytes": 693
     },
     {
       "path": "materials/tasks/l02-copy-file/task.yaml",
@@ -6457,8 +6479,8 @@
     },
     {
       "path": "materials/tasks/l03-read-outcomes/task.json",
-      "sha256": "7469e1a0d2a2ed50d295442378a800913780204359ed9c823a3d0cacc36030b6",
-      "bytes": 667
+      "sha256": "196b3de1a30d756191b0e764fc2a95c4e09d4bd450f19c19f445659e718e707d",
+      "bytes": 735
     },
     {
       "path": "materials/tasks/l03-read-outcomes/task.yaml",
@@ -6512,8 +6534,8 @@
     },
     {
       "path": "materials/tasks/l07-monotonic-time/task.json",
-      "sha256": "7c50077295d510f70fd4f9ba09227dc5d89f5f85cb2dd5031f21a524217fd7d6",
-      "bytes": 634
+      "sha256": "9b74c2687fee580dd2d30bb4edf564f22c2a17b92e0790b026d0fd6ad2d6460b",
+      "bytes": 703
     },
     {
       "path": "materials/tasks/l07-monotonic-time/task.yaml",
@@ -6567,8 +6589,8 @@
     },
     {
       "path": "materials/tasks/l08-argv-environment/task.json",
-      "sha256": "2bff03c34956e914f625a706032b064c5fcf373a6ac20920072ff507c5eed54e",
-      "bytes": 645
+      "sha256": "2ac83f04b296f047edf7eb899c2489a333d58dc5236d7976bbf978ebff282348",
+      "bytes": 716
     },
     {
       "path": "materials/tasks/l08-argv-environment/task.yaml",
@@ -6622,8 +6644,8 @@
     },
     {
       "path": "materials/tasks/l16-proc-status/task.json",
-      "sha256": "625acb45ee50665064a1ad00ab1c14d2e94b85125e42a24c87716e23fc4163f2",
-      "bytes": 613
+      "sha256": "4c456b99a5816718b818ceb8b0b7ddd532423e86bae5b7273a139b240a931a30",
+      "bytes": 679
     },
     {
       "path": "materials/tasks/l16-proc-status/task.yaml",
@@ -6672,8 +6694,8 @@
     },
     {
       "path": "materials/tasks/l20-process-identity/task.json",
-      "sha256": "a59082ccc2dc40fad12f660e10cf6963d895d507eaac6e1b58e13e526ed7f9f4",
-      "bytes": 602
+      "sha256": "ed54a0ba5879c8f2eb7d5fe49065bd2d270d247fdc708fe30ee10d24fe698d5e",
+      "bytes": 634
     },
     {
       "path": "materials/tasks/l20-process-identity/task.yaml",
@@ -6727,8 +6749,8 @@
     },
     {
       "path": "materials/tasks/l21-open-cloexec/task.json",
-      "sha256": "5cec5032cde3b62c7dc49eb8851606ad86a683d774160d06d7c8159437ed6479",
-      "bytes": 555
+      "sha256": "ac745af82c578f9455c92f933d144f88a73f53acc7a92cddd651e5b766142826",
+      "bytes": 587
     },
     {
       "path": "materials/tasks/l21-open-cloexec/task.yaml",
@@ -6782,8 +6804,8 @@
     },
     {
       "path": "materials/tasks/l22-pread-slice/task.json",
-      "sha256": "ef5c3bcc92fb1e20449306b7ad72e0bc0cac0af919001797c77dce38e666b468",
-      "bytes": 560
+      "sha256": "c2532a04e050bea1d32f87c4b10ddb1ccc4057ddbadcefff6b313b4342eab1c4",
+      "bytes": 592
     },
     {
       "path": "materials/tasks/l22-pread-slice/task.yaml",

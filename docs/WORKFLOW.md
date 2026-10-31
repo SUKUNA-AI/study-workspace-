@@ -62,8 +62,13 @@ python3 tools/study.py check U01.S54 --source cpp/u01/g-u01-01-sum-even/solution
 Публичная CPU-проверка использует Docker с Linux-контейнерами. Отдельная установка готовой
 песочницы: `python tools/study.py install-sandbox --release-file <проверенный judge-release.json>`.
 Она проверяет SHA256 архива и полный ID образа; doctor ничего не устанавливает.
-Затем добавь `.study/bin` в PATH для своего shell и выполни `judge login https://study.sukuna.tech`
-(токен вводится штатным клиентом). PowerShell: `$env:PATH="$PWD/.study/bin;$env:PATH"`;
+Docker Classic может показывать config ID, а Docker Desktop — OCI index ID того же образа.
+Обвязка проверяет их связь по pinned OCI descriptors из checksum-верного архива, rootfs и
+runtime config; произвольный image ID не принимается. Уже загруженный образ можно проверить
+без повторного `docker load`: `python tools/study.py install-sandbox --release-file <проверенный judge-release.json> --archive <локальный архив release> --verify-only`.
+Для серверной native-проверки добавь `.study/bin` в PATH и выполни `judge login https://study.sukuna.tech`
+(токен вводится штатным клиентом). Для локальной Docker-проверки login не нужен.
+PowerShell: `$env:PATH="$PWD/.study/bin;$env:PATH"`;
 Bash: `export PATH="$PWD/.study/bin:$PATH"`.
 `check` локально компилирует проверочный harness и выполняет только публичные тесты без login;
 свою учебную сборку ты настраиваешь сам. `check --remote` явно отправляет на сервер.
@@ -88,9 +93,41 @@ Bash: `export PATH="$PWD/.study/bin:$PATH"`.
 Недоступность Codex даёт `review_unavailable`; ошибка сборки не превращается в успешный runtime.
 Для контрольной ИИ не используется. Отзыв не содержит готового решения.
 
+Если работа состоит из нескольких файлов, выбери их явно. `prepare` показывает обязательные
+артефакты. Основной код задаётся `--source`, дополнительный файл — повторяемым `--file`.
+Например, l01 требует код и собственную таблицу strace:
+```text
+python tools/study.py submit U02.S65 --source linux/u02/l01-syscall-errors/solution.cpp --file homework/u02/l01-syscall-errors.md
+python tools/study.py review U02.S65 --source linux/u02/l01-syscall-errors/solution.cpp --file homework/u02/l01-syscall-errors.md --attempt <id> --contract <файл-контракта> --receipt <submission.json>
+```
+Обычный `check --source <код>` проверяет только код. Дополнительная заметка не считается
+исполненной native-проверкой; весь набор сохраняется отдельным immutable snapshot.
+
+Для мини-проекта U01 выбери только объявленную папку своей работы:
+```text
+python tools/study.py prepare U01.S71 --source-dir homework/u01/project
+python tools/study.py submit U01.S71 --source-dir homework/u01/project
+python tools/study.py review U01.S71 --source-dir homework/u01/project --attempt <id> --contract <файл-контракта> --receipt <submission.json>
+```
+Сначала создай свои исходники, тесты, сборку и README. Команды их не генерируют и проект
+не собирают. При `requiredProfiles=[]` для ревью артефактов не нужны judge login, Docker
+или native-профиль; без реального подтверждения сборки runtime-критерий остаётся `not_verified`.
+Owner API по-прежнему требует отдельную учётную настройку портала. Runner/reviewer credentials
+хранятся только у установленного доверенного адаптера вне learner workspace.
+
+Выбор папки ограничен каталогом этой задачи. Build outputs исключаются; инструкции, приватные
+и managed paths, symlinks, binary и дубликаты отклоняются. Лимиты: 32 UTF-8 файла,
+64 КиБ каждый, 256 КиБ суммарно. Snapshot хранит точные bytes и digest всего набора,
+отдельно — hash primary. Изменение README/заметки требует новой попытки/применимого ревью.
+
 Выгрузка исходника: `python tools/study.py export-source U01.S54 --source <путь> --out submission.json`.
 Импорт из браузера: `python tools/study.py import submission.json --task U01.S54`.
 Существующий отличающийся файл не перезаписывается: сначала сохрани оба варианта вручную.
+Для проекта выгрузи весь выбранный набор: `python tools/study.py export-source U01.S71 --source-dir homework/u01/project --out project-source.json`.
+Полный архив принятой попытки доступен в её истории. `import <архив> --task U01.S71` сначала
+проверяет все пути, hashes и конфликты. Если один файл отличается, ничего не записывается:
+осознанно перенеси локальный вариант в резервную папку вне каталога этой задачи и повтори импорт.
+Повтор идентичного импорта не создаёт дубликаты. Materials, инструкции и файлы обвязки защищены.
 Импорт отчёта: `python tools/study.py publish-report <report.json> --portal https://study.sukuna.tech --attempt <id>`;
 owner credential передаётся через `STUDY_OWNER_TOKEN`, не в исходнике и не reviewer-процессе.
 
