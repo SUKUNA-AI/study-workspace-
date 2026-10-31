@@ -4,12 +4,12 @@
   "profile": "bootstrap",
   "course_id": "study-portal/ai-systems-performance-2026-27",
   "source_repository": "SUKUNA-AI/study-portal",
-  "source_commit": "8b1e5d977ecc37df8752756dc02ee05c70611a48",
-  "content_release": "course-2026-10-31-bc6b34b03da0",
-  "content_digest": "bc6b34b03da032068b469f48cc36662085a63a38d63636032748c41810fe1d08",
+  "source_commit": "f85b96f461509004cf4d8fdb0b0608ae26320e49",
+  "content_release": "course-2026-10-31-5e44cd95daae",
+  "content_digest": "5e44cd95daae9cfb342e4608d45c3a3c3f224a0a5ba344a7f2f0042d1c250245",
   "export_version": "1.0.0",
   "tooling_revision": "5cf60b3eeafd2f2e0d6ded1dfd2d98abc3898da23b688549bb38874d69b6d905",
-  "generated_at": "2026-10-31T13:51:18Z",
+  "generated_at": "2026-10-31T16:06:40Z",
   "compatibility": {
     "layout": 2,
     "program_schema": "1.5",
@@ -26,29 +26,29 @@
       "visibility": "learner_public",
       "update_policy": "replace",
       "source_path": "generated:checker-profiles",
-      "source_commit": "8b1e5d977ecc37df8752756dc02ee05c70611a48",
+      "source_commit": "f85b96f461509004cf4d8fdb0b0608ae26320e49",
       "eol": "lf"
     },
     {
       "path": ".course/program.json",
-      "sha256": "7b16da110c115f983f33bd27642f0cc12e82056cfbe7943e7d465a91f134bc3b",
+      "sha256": "903eae8c93b103a829b7539d01223893edb94b0c2130b4b19fe63dc4a1f9f973",
       "bytes": 1646257,
       "role": "course_metadata",
       "visibility": "learner_public",
       "update_policy": "replace",
       "source_path": "generated:projection(content/curriculum/generated/program.json)",
-      "source_commit": "8b1e5d977ecc37df8752756dc02ee05c70611a48",
+      "source_commit": "f85b96f461509004cf4d8fdb0b0608ae26320e49",
       "eol": "lf"
     },
     {
       "path": ".course/task-index.json",
-      "sha256": "2e330f59c0c5cad05c917a460d03d7e57d72eb3a1d605cc0fc6e9dd710f86e53",
-      "bytes": 2145097,
+      "sha256": "d92fcdf9ba78171ba4001a36bd8e323dae21a98cdf6adab88e2d3e353c793f87",
+      "bytes": 2145114,
       "role": "course_metadata",
       "visibility": "learner_public",
       "update_policy": "replace",
       "source_path": "generated:task-index(program.json)",
-      "source_commit": "8b1e5d977ecc37df8752756dc02ee05c70611a48",
+      "source_commit": "f85b96f461509004cf4d8fdb0b0608ae26320e49",
       "eol": "lf"
     },
     {
@@ -59,7 +59,7 @@
       "visibility": "learner_public",
       "update_policy": "replace",
       "source_path": "content/repo_template/.gitattributes",
-      "source_commit": "8b1e5d977ecc37df8752756dc02ee05c70611a48",
+      "source_commit": "f85b96f461509004cf4d8fdb0b0608ae26320e49",
       "eol": "lf"
     },
     {
@@ -70,7 +70,7 @@
       "visibility": "learner_tooling",
       "update_policy": "replace",
       "source_path": "content/repo_template/.github/ISSUE_TEMPLATE/course-feedback.yml",
-      "source_commit": "8b1e5d977ecc37df8752756dc02ee05c70611a48",
+      "source_commit": "f85b96f461509004cf4d8fdb0b0608ae26320e49",
       "eol": "lf"
     },
     {
@@ -81,7 +81,7 @@
       "visibility": "learner_tooling",
       "update_policy": "replace",
       "source_path": "content/repo_template/.github/PULL_REQUEST_TEMPLATE.md",
-      "source_commit": "8b1e5d977ecc37df8752756dc02ee05c70611a48",
+      "source_commit": "f85b96f461509004cf4d8fdb0b0608ae26320e49",
       "eol": "lf"
     },
     {
@@ -92,7 +92,7 @@
       "visibility": "learner_public",
       "update_policy": "replace",
       "source_path": "generated:public-submodule",
-      "source_commit": "8b1e5d977ecc37df8752756dc02ee05c70611a48",
+      "source_commit": "f85b96f461509004cf4d8fdb0b0608ae26320e49",
       "eol": "lf"
     },
     {
@@ -103,7 +103,7 @@
       "visibility": "learner_tooling",
       "update_policy": "replace",
       "source_path": "content/repo_template/AGENTS.md",
-      "source_commit": "8b1e5d977ecc37df8752756dc02ee05c70611a48",
+      "source_commit": "f85b96f461509004cf4d8fdb0b0608ae26320e49",
       "eol": "lf"
     },
     {
@@ -114,7 +114,7 @@
       "visibility": "learner_tooling",
       "update_policy": "replace",
       "source_path": "content/repo_template/CONTRIBUTING.md",
-      "source_commit": "8b1e5d977ecc37df8752756dc02ee05c70611a48",
+      "source_commit": "f85b96f461509004cf4d8fdb0b0608ae26320e49",
       "eol": "lf"
     },
     {
@@ -125,7 +125,7 @@
       "visibility": "learner_tooling",
       "update_policy": "replace",
       "source_path": "content/repo_template/docs/WORKFLOW.md",
-      "source_commit": "8b1e5d977ecc37df8752756dc02ee05c70611a48",
+      "source_commit": "f85b96f461509004cf4d8fdb0b0608ae26320e49",
       "eol": "lf"
     },
     {
@@ -136,7 +136,7 @@
       "visibility": "learner_public",
       "update_policy": "replace",
       "source_path": "content/curriculum/generated/curriculum.md",
-      "source_commit": "8b1e5d977ecc37df8752756dc02ee05c70611a48",
+      "source_commit": "f85b96f461509004cf4d8fdb0b0608ae26320e49",
       "eol": "lf"
     },
     {
@@ -147,7 +147,7 @@
       "visibility": "learner_tooling",
       "update_policy": "replace",
       "source_path": "content/repo_template/tools/study.py",
-      "source_commit": "8b1e5d977ecc37df8752756dc02ee05c70611a48",
+      "source_commit": "f85b96f461509004cf4d8fdb0b0608ae26320e49",
       "eol": "lf"
     },
     {
@@ -158,7 +158,7 @@
       "visibility": "learner_tooling",
       "update_policy": "replace",
       "source_path": "content/repo_template/tools/study_doctor.py",
-      "source_commit": "8b1e5d977ecc37df8752756dc02ee05c70611a48",
+      "source_commit": "f85b96f461509004cf4d8fdb0b0608ae26320e49",
       "eol": "lf"
     },
     {
@@ -169,7 +169,7 @@
       "visibility": "learner_tooling",
       "update_policy": "replace",
       "source_path": "tools/workspace/learner/bundlelib.py",
-      "source_commit": "8b1e5d977ecc37df8752756dc02ee05c70611a48",
+      "source_commit": "f85b96f461509004cf4d8fdb0b0608ae26320e49",
       "eol": "lf"
     },
     {
@@ -180,7 +180,7 @@
       "visibility": "learner_tooling",
       "update_policy": "replace",
       "source_path": "tools/workspace/learner/course.py",
-      "source_commit": "8b1e5d977ecc37df8752756dc02ee05c70611a48",
+      "source_commit": "f85b96f461509004cf4d8fdb0b0608ae26320e49",
       "eol": "lf"
     },
     {
@@ -191,7 +191,7 @@
       "visibility": "learner_tooling",
       "update_policy": "replace",
       "source_path": "tools/workspace/learner/material_update.py",
-      "source_commit": "8b1e5d977ecc37df8752756dc02ee05c70611a48",
+      "source_commit": "f85b96f461509004cf4d8fdb0b0608ae26320e49",
       "eol": "lf"
     },
     {
@@ -202,7 +202,7 @@
       "visibility": "learner_tooling",
       "update_policy": "replace",
       "source_path": "tools/workspace/learner/study_cli.py",
-      "source_commit": "8b1e5d977ecc37df8752756dc02ee05c70611a48",
+      "source_commit": "f85b96f461509004cf4d8fdb0b0608ae26320e49",
       "eol": "lf"
     }
   ],
@@ -212,14 +212,14 @@
       "sha256": "025ba4ba7aaf3b45d3d6cdc0553c46b164e2f99a0eed4b21321e0e1df00163d6",
       "bytes": 909,
       "source_path": "content/repo_template/.gitignore",
-      "source_commit": "8b1e5d977ecc37df8752756dc02ee05c70611a48"
+      "source_commit": "f85b96f461509004cf4d8fdb0b0608ae26320e49"
     },
     {
       "path": "README.md",
       "sha256": "7fd303b77f15b28d3dc19126aee2ebce571f6b25ea77b2117d32ba2b1ce2b86a",
       "bytes": 9196,
       "source_path": "generated:public-start",
-      "source_commit": "8b1e5d977ecc37df8752756dc02ee05c70611a48"
+      "source_commit": "f85b96f461509004cf4d8fdb0b0608ae26320e49"
     }
   ],
   "student_paths": [
@@ -1584,7 +1584,7 @@
       "std": "c++23",
       "solution_file": "solution.cpp",
       "signature": "long lab::sys::check(long, const char*); void lab::sys::check_rc(int, const char*); std::int64_t lab::sys::file_size(const char*)",
-      "public_fingerprint": "feb9a2c24c798d8113b38b9f38bb608840c7cf97d0463abdf9aac788d06a9647"
+      "public_fingerprint": "bcac7c054f7c89038a9ecf89f721e045fb25e0611d616faf8218a7b94657f5c0"
     },
     {
       "id": "package:l02-copy-file",
@@ -2124,11 +2124,12 @@
     "repository": "SUKUNA-AI/study-materials",
     "repository_id": 1440790349,
     "url": "https://github.com/SUKUNA-AI/study-materials.git",
-    "commit": "4fb120ed6082bf5cc3b7b79e0efbbbb015760eb6",
-    "digest": "6b10d5c540440908a51bcaf4619fda0824df248cd2393e7ec597baf2730fb1bb",
+    "commit": "11a9785e38ff1695ed6cc68fd1184f53765a2320",
+    "digest": "b565493eb89f4e9d2274db2a7a1e9977ee38c1673241bc17a8df4e695e72f6fb",
     "path": "materials"
   },
   "compatible_previous_releases": [
+    "bc6b34b03da032068b469f48cc36662085a63a38d63636032748c41810fe1d08",
     "60dfe86e2c99ef6b23a8584733496c136a5e7f7ebbd2a6f273e1dd721d664ed7",
     "d9d10d77d76d5cdc8821b66c4c4ec4b2f7b36cf8eb962683891091e35cfe8ae0"
   ],
@@ -2271,7 +2272,7 @@
     },
     {
       "path": "materials/index.md",
-      "sha256": "e139e1dbfc96c3681da51fdab99f7ea9bcec50c763cbf11ccced39610fb0023b",
+      "sha256": "0845323b0711f0c9436010f6c88737a0ab02ec6fb267b76da48049c94b143854",
       "bytes": 41212
     },
     {
@@ -6341,13 +6342,13 @@
     },
     {
       "path": "materials/tasks/l01-syscall-errors/statement.md",
-      "sha256": "2112005da122f3363be8c79ddeeacafcb45c8ee67f7f9b6e732c17329f10c914",
-      "bytes": 5405
+      "sha256": "b62f735433f0550a65af29c9fadf33265968cde65805e62b952e45f11930a307",
+      "bytes": 5422
     },
     {
       "path": "materials/tasks/l01-syscall-errors/task.json",
-      "sha256": "7d53df0be673b03219d0fe6d76261684c69ecdf390ea047fa4378472847f193c",
-      "bytes": 615
+      "sha256": "6b009a61ff4314d777c7241ce328976a0dfe1a031b2fa80c7f7b6f0e221c112b",
+      "bytes": 632
     },
     {
       "path": "materials/tasks/l01-syscall-errors/task.yaml",
