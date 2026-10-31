@@ -1,0 +1,69 @@
+# --- Build output (CMake, CLion, Visual Studio, VS Code) ---
+build/
+out/
+cmake-build-*/
+CMakeUserPresets.json
+.vs/
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+*.exe
+*.pdb
+*.ilk
+*.exp
+*.out
+# CUDA intermediates (regenerate with nvcc -ptx / cuobjdump when needed)
+*.ptx
+*.cubin
+*.fatbin
+*.sass
+
+# --- Profiler reports: large, keep outside git (see profiles/README.md) ---
+*.nsys-rep
+*.qdrep
+*.qdstrm
+*.ncu-rep
+*.sqlite
+profiles/*
+!profiles/README.md
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+dist/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# --- Model weights, datasets, caches: store outside git, keep only id + how to get ---
+*.safetensors
+*.gguf
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.engine
+*.plan
+models/
+weights/
+hf_cache/
+data/*
+!data/README.md
+
+# --- Tutor automation scratch, secrets, OS junk ---
+.tutor-tmp/
+.study/
+.env
+*.pem
+*.key
+.DS_Store
+Thumbs.db
+desktop.ini

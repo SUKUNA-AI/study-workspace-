@@ -1,0 +1,48 @@
+name: Ошибка или предложение
+description: Условие, проверка, интерфейс или улучшение
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: Сообщение публично. Не вставляйте токены, личный черновик, скрытые тесты и полные книги.
+  - type: dropdown
+    id: category
+    attributes:
+      label: Область
+      options: ["Ошибка условия/источника", "Некорректная проверка", "Потеря/сохранение работы", "UI/доступность", "Предложение", "Пояснение к ревью"]
+  - type: input
+    id: task_id
+    attributes:
+      label: task_id
+  - type: input
+    id: step_id
+    attributes:
+      label: step_id
+  - type: input
+    id: task_revision
+    attributes:
+      label: task_revision
+  - type: input
+    id: app_version
+    attributes:
+      label: app_version
+  - type: input
+    id: page_url
+    attributes:
+      label: page_url
+  - type: input
+    id: criterion_id
+    attributes:
+      label: criterion_id
+  - type: textarea
+    id: expected
+    attributes:
+      label: expected
+  - type: textarea
+    id: actual
+    attributes:
+      label: actual
+  - type: textarea
+    id: steps
+    attributes:
+      label: steps

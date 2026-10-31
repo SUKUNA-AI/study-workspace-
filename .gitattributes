@@ -1,0 +1,18 @@
+# Весь текст — UTF-8/LF и в репозитории, и после checkout на любой ОС (SW-21): хеши managed-файлов (.course/manifest.json)
+# считаются по байтам LF (bundle-contract.md §8.3) и не зависят от core.autocrlf. PowerShell остаётся CRLF.
+* text=auto eol=lf
+
+# Скрипты оболочки обязаны оставаться LF (CRLF ломает bash на Linux-ноутбуке); PowerShell-модуль — CRLF и UTF-8 с BOM
+# (Windows PowerShell 5.1 без BOM читает кириллицу неверно); в manifest у них eol=crlf.
+*.sh   text eol=lf
+*.ps1  text eol=crlf
+*.psm1 text eol=crlf
+
+# Журналы времени: у каждой машины свой файл; если всё же дописали один файл с двух машин — сохранить обе стороны.
+*.csv  text eol=lf
+timelog/*.csv merge=union
+
+# Бинарные ресурсы (только маленькие — большие файлы вне git, Git LFS не используется)
+*.png  binary
+*.jpg  binary
+*.pdf  binary
