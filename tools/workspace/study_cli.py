@@ -447,6 +447,11 @@ def do_review(a,root,m,step):
     c = contract_for(a,root,step)
     if not c:
         raise B.BundleError('content_version_unavailable: review requires verified AssessmentContract')
+    pkg=(step.get('package') or {}).get('local_path')
+    statement = safe(root,pkg).read_text(encoding='utf-8') if pkg else step.get('public_review_contract')
+    if not needs_native(c) and not (isinstance(statement,str) and statement.strip() or isinstance(statement,dict) and any(
+            statement.get(k) for k in ('goal','tldr','contract','given','steps','done_when','deliver','checking'))):
+        raise B.BundleError('content_version_unavailable: public condition for this artifact step is unavailable; no review')
     if not hasattr(a,'server_runs'):
         a.server_runs=load(Path(a.receipt)).get('server_runs',{}) if getattr(a,'receipt',None) else {}
         if getattr(a,'attempt',None) and os.environ.get('STUDY_OWNER_TOKEN'):
@@ -492,10 +497,8 @@ def do_review(a,root,m,step):
     ids=[x['id'] for x in c['criteria']]
     if len(ids)!=len(set(ids)):
         raise B.BundleError('Duplicate criterion ID')
-    pkg=(step.get('package') or {}).get('local_path')
-    statement = safe(root,pkg).read_text(encoding='utf-8') if pkg else ''
     # Cache semantic inputs; run ID/timestamps/temp paths do not invalidate identical evidence.
-    context={'contract':c,'source':data.decode('utf-8'),'source_digest':digest(data),'statement':statement or step.get('public_review_contract',{}),
+    context={'contract':c,'source':data.decode('utf-8'),'source_digest':digest(data),'statement':statement or {},
              'source_files':[{'path':n,'sha256':inv['file_digests'][n],'content':v} for n,v in inv['files'].items()],
              'inventory_digest':inv['digest'],'primary_path':inv['primary_path'],
              'source_digest_scope':'primary_file_raw_bytes' if inv['primary_path'] else 'first_artifact_raw_bytes_legacy_alias',

@@ -4,12 +4,12 @@
   "profile": "bootstrap",
   "course_id": "study-portal/ai-systems-performance-2026-27",
   "source_repository": "SUKUNA-AI/study-portal",
-  "source_commit": "f2726741b9eb44e3528fbed7e9818bd1d587090c",
+  "source_commit": "9568163d04eefd16785e0b38f20c6a73a1161588",
   "content_release": "course-2026-10-31-5e44cd95daae",
   "content_digest": "5e44cd95daae9cfb342e4608d45c3a3c3f224a0a5ba344a7f2f0042d1c250245",
   "export_version": "1.0.0",
-  "tooling_revision": "a7205517d069fa3f7a007e0ebb249a75350f57d1b36e45c05ddf39238284ad6c",
-  "generated_at": "2026-10-31T17:01:27Z",
+  "tooling_revision": "74341a7dd93e2f9fc419c78180ae772ba62f07d70faac0c68c427849a59a71c0",
+  "generated_at": "2026-10-31T17:46:10Z",
   "compatibility": {
     "layout": 2,
     "program_schema": "1.5",
@@ -26,7 +26,7 @@
       "visibility": "learner_public",
       "update_policy": "replace",
       "source_path": "generated:checker-profiles",
-      "source_commit": "f2726741b9eb44e3528fbed7e9818bd1d587090c",
+      "source_commit": "9568163d04eefd16785e0b38f20c6a73a1161588",
       "eol": "lf"
     },
     {
@@ -37,18 +37,18 @@
       "visibility": "learner_public",
       "update_policy": "replace",
       "source_path": "generated:projection(content/curriculum/generated/program.json)",
-      "source_commit": "f2726741b9eb44e3528fbed7e9818bd1d587090c",
+      "source_commit": "9568163d04eefd16785e0b38f20c6a73a1161588",
       "eol": "lf"
     },
     {
       "path": ".course/task-index.json",
-      "sha256": "8175947a1a98862f9d36df0b6c9e886cf0f15068bc6e338b91352a81af64c0ea",
-      "bytes": 2178623,
+      "sha256": "e72e87e85770a89820d1c13f32ea96d1389b36a15067551bacd577f0c8278e14",
+      "bytes": 2308919,
       "role": "course_metadata",
       "visibility": "learner_public",
       "update_policy": "replace",
       "source_path": "generated:task-index(program.json)",
-      "source_commit": "f2726741b9eb44e3528fbed7e9818bd1d587090c",
+      "source_commit": "9568163d04eefd16785e0b38f20c6a73a1161588",
       "eol": "lf"
     },
     {
@@ -59,7 +59,7 @@
       "visibility": "learner_public",
       "update_policy": "replace",
       "source_path": "content/repo_template/.gitattributes",
-      "source_commit": "f2726741b9eb44e3528fbed7e9818bd1d587090c",
+      "source_commit": "9568163d04eefd16785e0b38f20c6a73a1161588",
       "eol": "lf"
     },
     {
@@ -70,7 +70,7 @@
       "visibility": "learner_tooling",
       "update_policy": "replace",
       "source_path": "content/repo_template/.github/ISSUE_TEMPLATE/course-feedback.yml",
-      "source_commit": "f2726741b9eb44e3528fbed7e9818bd1d587090c",
+      "source_commit": "9568163d04eefd16785e0b38f20c6a73a1161588",
       "eol": "lf"
     },
     {
@@ -81,7 +81,7 @@
       "visibility": "learner_tooling",
       "update_policy": "replace",
       "source_path": "content/repo_template/.github/PULL_REQUEST_TEMPLATE.md",
-      "source_commit": "f2726741b9eb44e3528fbed7e9818bd1d587090c",
+      "source_commit": "9568163d04eefd16785e0b38f20c6a73a1161588",
       "eol": "lf"
     },
     {
@@ -92,7 +92,7 @@
       "visibility": "learner_public",
       "update_policy": "replace",
       "source_path": "generated:public-submodule",
-      "source_commit": "f2726741b9eb44e3528fbed7e9818bd1d587090c",
+      "source_commit": "9568163d04eefd16785e0b38f20c6a73a1161588",
       "eol": "lf"
     },
     {
@@ -103,7 +103,7 @@
       "visibility": "learner_tooling",
       "update_policy": "replace",
       "source_path": "content/repo_template/AGENTS.md",
-      "source_commit": "f2726741b9eb44e3528fbed7e9818bd1d587090c",
+      "source_commit": "9568163d04eefd16785e0b38f20c6a73a1161588",
       "eol": "lf"
     },
     {
@@ -114,7 +114,7 @@
       "visibility": "learner_tooling",
       "update_policy": "replace",
       "source_path": "content/repo_template/CONTRIBUTING.md",
-      "source_commit": "f2726741b9eb44e3528fbed7e9818bd1d587090c",
+      "source_commit": "9568163d04eefd16785e0b38f20c6a73a1161588",
       "eol": "lf"
     },
     {
@@ -125,7 +125,7 @@
       "visibility": "learner_tooling",
       "update_policy": "replace",
       "source_path": "content/repo_template/docs/WORKFLOW.md",
-      "source_commit": "f2726741b9eb44e3528fbed7e9818bd1d587090c",
+      "source_commit": "9568163d04eefd16785e0b38f20c6a73a1161588",
       "eol": "lf"
     },
     {
@@ -136,7 +136,7 @@
       "visibility": "learner_public",
       "update_policy": "replace",
       "source_path": "content/curriculum/generated/curriculum.md",
-      "source_commit": "f2726741b9eb44e3528fbed7e9818bd1d587090c",
+      "source_commit": "9568163d04eefd16785e0b38f20c6a73a1161588",
       "eol": "lf"
     },
     {
@@ -147,7 +147,7 @@
       "visibility": "learner_tooling",
       "update_policy": "replace",
       "source_path": "content/repo_template/tools/study.py",
-      "source_commit": "f2726741b9eb44e3528fbed7e9818bd1d587090c",
+      "source_commit": "9568163d04eefd16785e0b38f20c6a73a1161588",
       "eol": "lf"
     },
     {
@@ -158,7 +158,7 @@
       "visibility": "learner_tooling",
       "update_policy": "replace",
       "source_path": "content/repo_template/tools/study_doctor.py",
-      "source_commit": "f2726741b9eb44e3528fbed7e9818bd1d587090c",
+      "source_commit": "9568163d04eefd16785e0b38f20c6a73a1161588",
       "eol": "lf"
     },
     {
@@ -169,7 +169,7 @@
       "visibility": "learner_tooling",
       "update_policy": "replace",
       "source_path": "tools/workspace/learner/bundlelib.py",
-      "source_commit": "f2726741b9eb44e3528fbed7e9818bd1d587090c",
+      "source_commit": "9568163d04eefd16785e0b38f20c6a73a1161588",
       "eol": "lf"
     },
     {
@@ -180,7 +180,7 @@
       "visibility": "learner_tooling",
       "update_policy": "replace",
       "source_path": "tools/workspace/learner/course.py",
-      "source_commit": "f2726741b9eb44e3528fbed7e9818bd1d587090c",
+      "source_commit": "9568163d04eefd16785e0b38f20c6a73a1161588",
       "eol": "lf"
     },
     {
@@ -191,7 +191,7 @@
       "visibility": "learner_tooling",
       "update_policy": "replace",
       "source_path": "tools/workspace/learner/material_update.py",
-      "source_commit": "f2726741b9eb44e3528fbed7e9818bd1d587090c",
+      "source_commit": "9568163d04eefd16785e0b38f20c6a73a1161588",
       "eol": "lf"
     },
     {
@@ -202,7 +202,7 @@
       "visibility": "learner_tooling",
       "update_policy": "replace",
       "source_path": "tools/workspace/learner/sandbox_identity.py",
-      "source_commit": "f2726741b9eb44e3528fbed7e9818bd1d587090c",
+      "source_commit": "9568163d04eefd16785e0b38f20c6a73a1161588",
       "eol": "lf"
     },
     {
@@ -213,18 +213,18 @@
       "visibility": "learner_tooling",
       "update_policy": "replace",
       "source_path": "tools/workspace/learner/source_inventory.py",
-      "source_commit": "f2726741b9eb44e3528fbed7e9818bd1d587090c",
+      "source_commit": "9568163d04eefd16785e0b38f20c6a73a1161588",
       "eol": "lf"
     },
     {
       "path": "tools/workspace/study_cli.py",
-      "sha256": "4c023183e00631e158274465b337dfc81c723d2d45e7817d3e5790f3af1d24d6",
-      "bytes": 61017,
+      "sha256": "ef5a7739c8e1cecddd11189995ed22e9bdb7ba1ee8acceff27eca68e5b96d599",
+      "bytes": 61380,
       "role": "tooling",
       "visibility": "learner_tooling",
       "update_policy": "replace",
       "source_path": "tools/workspace/learner/study_cli.py",
-      "source_commit": "f2726741b9eb44e3528fbed7e9818bd1d587090c",
+      "source_commit": "9568163d04eefd16785e0b38f20c6a73a1161588",
       "eol": "lf"
     }
   ],
@@ -234,14 +234,14 @@
       "sha256": "025ba4ba7aaf3b45d3d6cdc0553c46b164e2f99a0eed4b21321e0e1df00163d6",
       "bytes": 909,
       "source_path": "content/repo_template/.gitignore",
-      "source_commit": "f2726741b9eb44e3528fbed7e9818bd1d587090c"
+      "source_commit": "9568163d04eefd16785e0b38f20c6a73a1161588"
     },
     {
       "path": "README.md",
       "sha256": "e6e99de8a15d135969700c4e36e795705204a8069f3e6df5396dd092114c7a95",
       "bytes": 13473,
       "source_path": "generated:public-start",
-      "source_commit": "f2726741b9eb44e3528fbed7e9818bd1d587090c"
+      "source_commit": "9568163d04eefd16785e0b38f20c6a73a1161588"
     }
   ],
   "student_paths": [
@@ -2146,8 +2146,8 @@
     "repository": "SUKUNA-AI/study-materials",
     "repository_id": 1440790349,
     "url": "https://github.com/SUKUNA-AI/study-materials.git",
-    "commit": "73eda959d3c6530ffc321aee99e4535f0b010a19",
-    "digest": "c1dd2648fcc49ca96ccdd3a5c716a5c634c02a252f7097cc0f0211726598b77a",
+    "commit": "dcf5fe83b257ef0daef1f952905ee995d6b982a4",
+    "digest": "93c77720aa133a274c5ecaee56c99d20b6dc09d17e8e7efcd6ac070351d82b4c",
     "path": "materials"
   },
   "compatible_previous_releases": [
